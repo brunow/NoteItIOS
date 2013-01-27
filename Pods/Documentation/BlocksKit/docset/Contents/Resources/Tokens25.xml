@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIGestureRecognizer+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIGestureRecognizer(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Block functionality for UIGestureRecognizer.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/recognizerWithHandler:delay:</TokenIdentifier>
+			<Abstract type="html">An autoreleased gesture recognizer that will, on firing, call
+the given block asynchronously after a number of seconds.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (id)recognizerWithHandler:(BKGestureRecognizerBlock)block delay:(NSTimeInterval)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block which handles an executed gesture.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">A number of seconds after which the block will fire.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An autoreleased instance of a concrete UIGestureRecognizer subclass, or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/recognizerWithHandler:delay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/initWithHandler:delay:</TokenIdentifier>
+			<Abstract type="html">Initializes an allocated gesture recognizer that will call the given block
+after a given delay.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithHandler:(BKGestureRecognizerBlock)block delay:(NSTimeInterval)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block which handles an executed gesture.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">A number of seconds after which the block will fire.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of a concrete UIGestureRecognizer subclass or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithHandler:delay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/recognizerWithHandler:</TokenIdentifier>
+			<Abstract type="html">An autoreleased gesture recognizer that will call the given block.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (id)recognizerWithHandler:(BKGestureRecognizerBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block which handles an executed gesture.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized and autoreleased instance of a concrete UIGestureRecognizer
+subclass, or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/recognizerWithHandler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/initWithHandler:</TokenIdentifier>
+			<Abstract type="html">Initializes an allocated gesture recognizer that will call the given block.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithHandler:(BKGestureRecognizerBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block which handles an executed gesture.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of a concrete UIGestureRecognizer subclass or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithHandler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/setHandler:</TokenIdentifier>
+			<Abstract type="html">Allows the block that will be fired by the gesture recognizer
+to be modified after the fact.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKGestureRecognizerBlock handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIGestureRecognizer(BlocksKit)/handler</TokenIdentifier>
+			<Abstract type="html">Allows the block that will be fired by the gesture recognizer
+to be modified after the fact.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKGestureRecognizerBlock handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/setHandlerDelay:</TokenIdentifier>
+			<Abstract type="html">Allows the length of the delay after which the gesture
+recognizer will be fired to modify.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSTimeInterval handlerDelay</Declaration>
+			
+			
+			<Anchor>//api/name/handlerDelay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIGestureRecognizer(BlocksKit)/handlerDelay</TokenIdentifier>
+			<Abstract type="html">Allows the length of the delay after which the gesture
+recognizer will be fired to modify.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSTimeInterval handlerDelay</Declaration>
+			
+			
+			<Anchor>//api/name/handlerDelay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/set:</TokenIdentifier>
+			<Abstract type="html">Allows the length of the delay after which the gesture
+recognizer will be fired to modify.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSTimeInterval delay DEPRECATED_ATTRIBUTE_M ( &quot;Use handlerDelay&quot; )</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIGestureRecognizer(BlocksKit)/)</TokenIdentifier>
+			<Abstract type="html">Allows the length of the delay after which the gesture
+recognizer will be fired to modify.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSTimeInterval delay DEPRECATED_ATTRIBUTE_M ( &quot;Use handlerDelay&quot; )</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIGestureRecognizer(BlocksKit)/cancel</TokenIdentifier>
+			<Abstract type="html">If the recognizer happens to be fired, calling this method
+will stop it from firing, but only if a delay is set.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

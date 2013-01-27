@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+AssociatedObjects.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(AssociatedObjects)</TokenIdentifier>
+			<Abstract type="html">Objective-C wrapper for 10.6 associated object API.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associateValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Strongly associates an object with the reciever.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+			<Declaration>- (void)associateValue:(id)value withKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Any object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/associateValue:withKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associateValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Strongly associates an object with the receiving class.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associateValue:withKey:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (void)associateValue:(id)value withKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Any object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/associateValue:withKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associateCopyOfValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Associates a copy of an object with the reciever.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+			<Declaration>- (void)associateCopyOfValue:(id)value withKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Any object, pointer, or value.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/associateCopyOfValue:withKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associateCopyOfValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Associates a copy of an object with the receiving class.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associateCopyOfValue:withKey:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (void)associateCopyOfValue:(id)value withKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Any object, pointer, or value.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/associateCopyOfValue:withKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/weaklyAssociateValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Weakly associates an object with the reciever.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+			<Declaration>- (void)weaklyAssociateValue:(id)value withKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Any object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/weaklyAssociateValue:withKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/weaklyAssociateValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Weakly associates an object with the receiving class.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/weaklyAssociateValue:withKey:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (void)weaklyAssociateValue:(id)value withKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Any object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/weaklyAssociateValue:withKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associatedValueForKey:</TokenIdentifier>
+			<Abstract type="html">Returns the associated value for a key on the reciever.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+			<Declaration>- (id)associatedValueForKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The object associated with the key, or nil if not found.</Abstract></ReturnValue>
+			<Anchor>//api/name/associatedValueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associatedValueForKey:</TokenIdentifier>
+			<Abstract type="html">Returns the associated value for a key on the receiving class.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/associatedValueForKey:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (id)associatedValueForKey:(const char *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A unique key pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The object associated with the key, or nil if not found.</Abstract></ReturnValue>
+			<Anchor>//api/name/associatedValueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/removeAllAssociatedObjects</TokenIdentifier>
+			<Abstract type="html">Returns the reciever to a clean state by removing all
+associated objects, releasing them if necessary.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeAllAssociatedObjects</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllAssociatedObjects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(AssociatedObjects)/removeAllAssociatedObjects</TokenIdentifier>
+			<Abstract type="html">Returns the recieving class to a clean state by removing
+all associated objects, releasing them if necessary.</Abstract>
+			<DeclaredIn>NSObject+AssociatedObjects.h</DeclaredIn>			
+			
+			<Declaration>+ (void)removeAllAssociatedObjects</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllAssociatedObjects</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

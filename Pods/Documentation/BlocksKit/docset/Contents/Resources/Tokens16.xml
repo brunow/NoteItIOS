@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+BlockObservation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(BlockObservation)</TokenIdentifier>
+			<Abstract type="html">Blocks wrapper for key-value observation.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:task:</TokenIdentifier>
+			<Abstract type="html">Adds an observer to an object conforming to NSKeyValueObserving.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:identifier:options:task:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)addObserverForKeyPath:(NSString *)keyPath task:(BKSenderBlock)task</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The property to observe, relative to the reciever.</Abstract>
+				</Parameter><Parameter>
+					<Name>task</Name>
+					<Abstract type="html">A block with no return argument, and a single parameter: the reciever.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a globally unique process identifier for removing
+observation with removeObserverWithBlockToken:.</Abstract></ReturnValue>
+			<Anchor>//api/name/addObserverForKeyPath:task:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPaths:task:</TokenIdentifier>
+			<Abstract type="html">Adds an observer to an object conforming to NSKeyValueObserving.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:identifier:options:task:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)addObserverForKeyPaths:(NSArray *)keyPaths task:(BKSenderKeyPathBlock)task</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPaths</Name>
+					<Abstract type="html">An array of properties to observe, relative to the reciever.</Abstract>
+				</Parameter><Parameter>
+					<Name>task</Name>
+					<Abstract type="html">A block with no return argument and two parameters: the
+reciever and the key path of the value change.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A unique identifier for removing
+observation with removeObserverWithBlockToken:.</Abstract></ReturnValue>
+			<Anchor>//api/name/addObserverForKeyPaths:task:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:options:task:</TokenIdentifier>
+			<Abstract type="html">Adds an observer to an object conforming to NSKeyValueObserving.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:identifier:options:task:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)addObserverForKeyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options task:(BKObservationBlock)task</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The property to observe, relative to the reciever.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use.</Abstract>
+				</Parameter><Parameter>
+					<Name>task</Name>
+					<Abstract type="html">A block with no return argument and two parameters: the
+reciever and the change dictionary.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a globally unique process identifier for removing
+observation with removeObserverWithBlockToken:.</Abstract></ReturnValue>
+			<Anchor>//api/name/addObserverForKeyPath:options:task:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPaths:options:task:</TokenIdentifier>
+			<Abstract type="html">Adds an observer to an object conforming to NSKeyValueObserving.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:identifier:options:task:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)addObserverForKeyPaths:(NSArray *)keyPaths options:(NSKeyValueObservingOptions)options task:(BKMultipleObservationBlock)task</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPaths</Name>
+					<Abstract type="html">An array of properties to observe, relative to the reciever.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use.</Abstract>
+				</Parameter><Parameter>
+					<Name>task</Name>
+					<Abstract type="html">A block responding to the reciever, the key path, and the KVO change.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A unique identifier for removing
+observation with removeObserverWithBlockToken:.</Abstract></ReturnValue>
+			<Anchor>//api/name/addObserverForKeyPaths:options:task:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:identifier:options:task:</TokenIdentifier>
+			<Abstract type="html">Adds an observer to an object conforming to NSKeyValueObserving.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:task:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addObserverForKeyPath:(NSString *)keyPath identifier:(NSString *)token options:(NSKeyValueObservingOptions)options task:(BKObservationBlock)task</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The property to observe, relative to the reciever.</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">An identifier for the observation block.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use.</Abstract>
+				</Parameter><Parameter>
+					<Name>task</Name>
+					<Abstract type="html">A block responding to the reciever and the KVO change.
+observation with removeObserverWithBlockToken:.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addObserverForKeyPath:identifier:options:task:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPaths:identifier:options:task:</TokenIdentifier>
+			<Abstract type="html">Adds an observer to an object conforming to NSKeyValueObserving.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/addObserverForKeyPath:task:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addObserverForKeyPaths:(NSArray *)keyPaths identifier:(NSString *)token options:(NSKeyValueObservingOptions)options task:(BKMultipleObservationBlock)task</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPaths</Name>
+					<Abstract type="html">An array of properties to observe, relative to the reciever.</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">An identifier for the observation block.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use.</Abstract>
+				</Parameter><Parameter>
+					<Name>task</Name>
+					<Abstract type="html">A block responding to the reciever, the key path, and the KVO change.
+observation with removeObserversWithIdentifier:.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addObserverForKeyPaths:identifier:options:task:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/removeObserverForKeyPath:identifier:</TokenIdentifier>
+			<Abstract type="html">Removes a block observer.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/removeObserversWithIdentifier:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeObserverForKeyPath:(NSString *)keyPath identifier:(NSString *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The property to stop observing, relative to the reciever.</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">The unique key returned by addObserverForKeyPath:task:
+or the identifier given in addObserverForKeyPath:identifier:task:.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeObserverForKeyPath:identifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/removeObserversWithIdentifier:</TokenIdentifier>
+			<Abstract type="html">Removes multiple block observers with a certain identifier.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/removeObserverForKeyPath:identifier:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeObserversWithIdentifier:(NSString *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">A unique key returned by addObserverForKeyPath:task:
+and addObserverForKeyPaths:task: or the identifier given in
+addObserverForKeyPath:identifier:task: and
+addObserverForKeyPaths:identifier:task:.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeObserversWithIdentifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(BlockObservation)/removeAllBlockObservers</TokenIdentifier>
+			<Abstract type="html">Remove all registered block observers.</Abstract>
+			<DeclaredIn>NSObject+BlockObservation.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeAllBlockObservers</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllBlockObservers</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

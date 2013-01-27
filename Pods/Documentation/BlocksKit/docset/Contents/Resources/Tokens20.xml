@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSURLConnection+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSURLConnection(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">NSURLConnection with both delegate and block callback support</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/setDelegate:</TokenIdentifier>
+			<Abstract type="html">A mutable delegate that implements the NSURLConnectionDelegate protocol.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSURLConnection(BlocksKit)/delegate</TokenIdentifier>
+			<Abstract type="html">A mutable delegate that implements the NSURLConnectionDelegate protocol.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/setResponseBlock:</TokenIdentifier>
+			<Abstract type="html">The block fired once the connection recieves a response from the server.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSURLConnection *, NSURLResponse *) responseBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSURLConnection(BlocksKit)/responseBlock</TokenIdentifier>
+			<Abstract type="html">The block fired once the connection recieves a response from the server.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSURLConnection *, NSURLResponse *) responseBlock</Declaration>
+			
+			
+			<Anchor>//api/name/responseBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/setFailureBlock:</TokenIdentifier>
+			<Abstract type="html">The block fired upon the failure of the connection.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSURLConnection *, NSError *) failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/failureBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSURLConnection(BlocksKit)/failureBlock</TokenIdentifier>
+			<Abstract type="html">The block fired upon the failure of the connection.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSURLConnection *, NSError *) failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/failureBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/setSuccessBlock:</TokenIdentifier>
+			<Abstract type="html">The block that  upon the successful completion of the connection.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSURLConnection *, NSURLResponse *, NSData *) successBlock</Declaration>
+			
+			
+			<Anchor>//api/name/successBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSURLConnection(BlocksKit)/successBlock</TokenIdentifier>
+			<Abstract type="html">The block that  upon the successful completion of the connection.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSURLConnection *, NSURLResponse *, NSData *) successBlock</Declaration>
+			
+			
+			<Anchor>//api/name/successBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/setUploadBlock:</TokenIdentifier>
+			<Abstract type="html">The block fired every time new data is sent to the server,
+representing the current percentage of completion.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat ) uploadBlock</Declaration>
+			
+			
+			<Anchor>//api/name/uploadBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSURLConnection(BlocksKit)/uploadBlock</TokenIdentifier>
+			<Abstract type="html">The block fired every time new data is sent to the server,
+representing the current percentage of completion.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat ) uploadBlock</Declaration>
+			
+			
+			<Anchor>//api/name/uploadBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/setDownloadBlock:</TokenIdentifier>
+			<Abstract type="html">The block fired every time new data is recieved from the server,
+representing the current percentage of completion.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat ) downloadBlock</Declaration>
+			
+			
+			<Anchor>//api/name/downloadBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSURLConnection(BlocksKit)/downloadBlock</TokenIdentifier>
+			<Abstract type="html">The block fired every time new data is recieved from the server,
+representing the current percentage of completion.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat ) downloadBlock</Declaration>
+			
+			
+			<Anchor>//api/name/downloadBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/connectionWithRequest:</TokenIdentifier>
+			<Abstract type="html">Creates and returns an initialized block-backed URL connection that does not begin to load the data for the URL request.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (NSURLConnection *)connectionWithRequest:(NSURLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request to load.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An autoreleased NSURLConnection for the specified URL request.</Abstract></ReturnValue>
+			<Anchor>//api/name/connectionWithRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/startConnectionWithRequest:successHandler:failureHandler:</TokenIdentifier>
+			<Abstract type="html">Creates, starts, and returns an asynchronous, block-backed URL connection</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (NSURLConnection *)startConnectionWithRequest:(NSURLRequest *)request successHandler:(void ( ^ ) ( NSURLConnection *, NSURLResponse *, NSData *))success failureHandler:(void ( ^ ) ( NSURLConnection *, NSError *))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request to load.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">A code block that acts on instances of NSURLResponse and NSData in the event of a successful connection.</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">A code block that acts on instances of NSURLResponse and NSError in the event of a failed connection.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">New and running NSURLConnection with the specified properties.</Abstract></ReturnValue>
+			<Anchor>//api/name/startConnectionWithRequest:successHandler:failureHandler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/initWithRequest:</TokenIdentifier>
+			<Abstract type="html">Returns an initialized block-backed URL connection.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRequest:(NSURLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request to load.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Newly initialized NSURLConnection with the specified properties.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/initWithRequest:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Returns an initialized URL connection with the specified completion handler.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRequest:(NSURLRequest *)request completionHandler:(void ( ^ ) ( NSURLConnection *, NSURLResponse *, NSData *))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request to load.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A code block that acts on instances of NSURLResponse and NSData in the event of a successful connection.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Newly initialized NSURLConnection with the specified properties.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithRequest:completionHandler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSURLConnection(BlocksKit)/startWithCompletionBlock:</TokenIdentifier>
+			<Abstract type="html">Causes the connection to begin loading data, if it has not already, with the specified block to be fired on successful completion.</Abstract>
+			<DeclaredIn>NSURLConnection+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)startWithCompletionBlock:(void ( ^ ) ( NSURLConnection *, NSURLResponse *, NSData *))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A code block that acts on instances of NSURLResponse and NSData in the event of a successful connection.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startWithCompletionBlock:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

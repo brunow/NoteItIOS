@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSTimer+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSTimer(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Simple category on NSTimer to give it blocks capability.</Abstract>
+			<DeclaredIn>NSTimer+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSTimer(BlocksKit)/scheduledTimerWithTimeInterval:block:repeats:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a block-based NSTimer object and schedules it on the current run loop.</Abstract>
+			<DeclaredIn>NSTimer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(BKTimerBlock)inBlock repeats:(BOOL)inRepeats</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>inTimeInterval</Name>
+					<Abstract type="html">The number of seconds between firings of the timer.</Abstract>
+				</Parameter><Parameter>
+					<Name>inBlock</Name>
+					<Abstract type="html">The block that the NSTimer fires.</Abstract>
+				</Parameter><Parameter>
+					<Name>inRepeats</Name>
+					<Abstract type="html">If YES, the timer will repeatedly reschedule itself until invalidated. If NO, the timer will be invalidated after it fires.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new NSTimer object, configured according to the specified parameters.</Abstract></ReturnValue>
+			<Anchor>//api/name/scheduledTimerWithTimeInterval:block:repeats:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSTimer(BlocksKit)/timerWithTimeInterval:block:repeats:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a block-based NSTimer initialized with the specified block.</Abstract>
+			<DeclaredIn>NSTimer+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (NSTimer *)timerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(BKTimerBlock)inBlock repeats:(BOOL)inRepeats</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>inTimeInterval</Name>
+					<Abstract type="html">The number of seconds between firings of the timer.</Abstract>
+				</Parameter><Parameter>
+					<Name>inBlock</Name>
+					<Abstract type="html">The block that the NSTimer fires.</Abstract>
+				</Parameter><Parameter>
+					<Name>inRepeats</Name>
+					<Abstract type="html">If YES, the timer will repeatedly reschedule itself until invalidated. If NO, the timer will be invalidated after it fires.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new NSTimer object, configured according to the specified parameters.</Abstract></ReturnValue>
+			<Anchor>//api/name/timerWithTimeInterval:block:repeats:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

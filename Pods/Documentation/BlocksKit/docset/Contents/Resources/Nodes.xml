@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>BlocksKit 1.5.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		<Node id="1">
+			<Name>FORCELOAD_</Name>
+			<Path>Classes/FORCELOAD_.html</Path>
+		</Node>
+		
+		<Node id="2">
+			<Name>A2DynamicDelegate(A2BlockDelegate)</Name>
+			<Path>Categories/A2DynamicDelegate+A2BlockDelegate.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>MFMailComposeViewController(BlocksKit)</Name>
+			<Path>Categories/MFMailComposeViewController+BlocksKit.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>MFMessageComposeViewController(BlocksKit)</Name>
+			<Path>Categories/MFMessageComposeViewController+BlocksKit.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>NSArray(BlocksKit)</Name>
+			<Path>Categories/NSArray+BlocksKit.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>NSCache(BlocksKit)</Name>
+			<Path>Categories/NSCache+BlocksKit.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>NSDictionary(BlocksKit)</Name>
+			<Path>Categories/NSDictionary+BlocksKit.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>NSIndexSet(BlocksKit)</Name>
+			<Path>Categories/NSIndexSet+BlocksKit.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>NSInvocation(BlocksKit)</Name>
+			<Path>Categories/NSInvocation+BlocksKit.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>NSMutableArray(BlocksKit)</Name>
+			<Path>Categories/NSMutableArray+BlocksKit.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>NSMutableDictionary(BlocksKit)</Name>
+			<Path>Categories/NSMutableDictionary+BlocksKit.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>NSMutableIndexSet(BlocksKit)</Name>
+			<Path>Categories/NSMutableIndexSet+BlocksKit.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>NSMutableSet(BlocksKit)</Name>
+			<Path>Categories/NSMutableSet+BlocksKit.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>NSObject(A2BlockDelegateBlocksKit)</Name>
+			<Path>Categories/NSObject+A2BlockDelegateBlocksKit.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>NSObject(AssociatedObjects)</Name>
+			<Path>Categories/NSObject+AssociatedObjects.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>NSObject(BlockObservation)</Name>
+			<Path>Categories/NSObject+BlockObservation.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>NSObject(BlocksKit)</Name>
+			<Path>Categories/NSObject+BlocksKit.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>NSSet(BlocksKit)</Name>
+			<Path>Categories/NSSet+BlocksKit.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>NSTimer(BlocksKit)</Name>
+			<Path>Categories/NSTimer+BlocksKit.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>NSURLConnection(BlocksKit)</Name>
+			<Path>Categories/NSURLConnection+BlocksKit.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>UIActionSheet(BlocksKit)</Name>
+			<Path>Categories/UIActionSheet+BlocksKit.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>UIAlertView(BlocksKit)</Name>
+			<Path>Categories/UIAlertView+BlocksKit.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>UIBarButtonItem(BlocksKit)</Name>
+			<Path>Categories/UIBarButtonItem+BlocksKit.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>UIControl(BlocksKit)</Name>
+			<Path>Categories/UIControl+BlocksKit.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>UIGestureRecognizer(BlocksKit)</Name>
+			<Path>Categories/UIGestureRecognizer+BlocksKit.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>UIPopoverController(BlocksKit)</Name>
+			<Path>Categories/UIPopoverController+BlocksKit.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>UIView(BlocksKit)</Name>
+			<Path>Categories/UIView+BlocksKit.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>UIWebView(BlocksKit)</Name>
+			<Path>Categories/UIWebView+BlocksKit.html</Path>
+		</Node>
+		
+		
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSIndexSet+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSIndexSet(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Block extensions for NSIndexSet.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cat/NSArray(BlocksKit)</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cat/NSDictionary(BlocksKit)</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cat/NSSet(BlocksKit)</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/each:</TokenIdentifier>
+			<Abstract type="html">Loops through an index set and executes the given block at each index.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)each:(BKIndexBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, void-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/each:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/apply:</TokenIdentifier>
+			<Abstract type="html">Enumerates each index in an index set concurrently and executes the
+given block once per index.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)apply:(BKIndexBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, void-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/apply:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/match:</TokenIdentifier>
+			<Abstract type="html">Loops through an array and returns the index matching the block.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/select:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSUInteger)match:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns the index if found, NSNotFound otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/match:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/select:</TokenIdentifier>
+			<Abstract type="html">Loops through an index set and returns an all indexes matching the block.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/match:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSIndexSet *)select:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns an index set of matching indexes found.</Abstract></ReturnValue>
+			<Anchor>//api/name/select:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/reject:</TokenIdentifier>
+			<Abstract type="html">Loops through an index set and returns an all indexes but the ones matching the block.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (NSIndexSet *)reject:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns an index set of all indexes but those matched.</Abstract></ReturnValue>
+			<Anchor>//api/name/reject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/map:</TokenIdentifier>
+			<Abstract type="html">Call the block once for each index and create an index set with the new values.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (NSIndexSet *)map:(BKIndexTransformBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block that returns a new index for an index.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An index set of the indexes returned by the block.</Abstract></ReturnValue>
+			<Anchor>//api/name/map:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/any:</TokenIdentifier>
+			<Abstract type="html">Loops through an index set to find whether any of the indexes matche the block.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)any:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES for the first time the block returns YES for an index, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/any:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/all:</TokenIdentifier>
+			<Abstract type="html">Loops through an index set to find whether all objects match the block.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)all:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the block returns YES for all indexes in the array, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/all:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSIndexSet(BlocksKit)/none:</TokenIdentifier>
+			<Abstract type="html">Loops through an index set to find whether no objects match the block.</Abstract>
+			<DeclaredIn>NSIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)none:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the block returns NO for all indexes in the array, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/none:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

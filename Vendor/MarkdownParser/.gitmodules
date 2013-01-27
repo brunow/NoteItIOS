@@ -1,0 +1,3 @@
+[submodule "Submodules/libupskirt"]
+	path = Submodules/libupskirt
+	url = git@github.com:danieleggert/libupskirt.git

@@ -1,0 +1,1 @@
+../../CoreParse/CoreParse/Tokenisation/Token Types/CPQuotedToken.h

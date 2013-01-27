@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/A2DynamicDelegate+A2BlockDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/A2DynamicDelegate(A2BlockDelegate)</TokenIdentifier>
+			<Abstract type="html">This lightweight extension allows subclasses
+of A2DynamicDelegate, when in use with the A2BlockDelegate
+BlocksKit category, to access the original delegate.</Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/A2DynamicDelegate(A2BlockDelegate)/setRealDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id realDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/realDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/A2DynamicDelegate(A2BlockDelegate)/realDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id realDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/realDelegate</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

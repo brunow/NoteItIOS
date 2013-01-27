@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSCache+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSCache(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">NSCache with block adding of objects</Abstract>
+			<DeclaredIn>NSCache+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCache(BlocksKit)/objectForKey:withGetter:</TokenIdentifier>
+			<Abstract type="html">Returns the value associated with a given key. If there is no
+object for that key, it uses the result of the block, saves
+that to the cache, and returns it.</Abstract>
+			<DeclaredIn>NSCache+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectForKey:(id)key withGetter:(BKReturnBlock)getterBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">An object identifying the value.</Abstract>
+				</Parameter><Parameter>
+					<Name>getterBlock</Name>
+					<Abstract type="html">A block used to get an object if there is no
+value in the cache.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The value associated with key, or the object returned
+by the block if no value is associated with key.</Abstract></ReturnValue>
+			<Anchor>//api/name/objectForKey:withGetter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCache(BlocksKit)/setWillEvictBlock:</TokenIdentifier>
+			<Abstract type="html">Called when an object is about to be evicted from the cache.</Abstract>
+			<DeclaredIn>NSCache+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSCache *, id ) willEvictBlock</Declaration>
+			
+			
+			<Anchor>//api/name/willEvictBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSCache(BlocksKit)/willEvictBlock</TokenIdentifier>
+			<Abstract type="html">Called when an object is about to be evicted from the cache.</Abstract>
+			<DeclaredIn>NSCache+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSCache *, id ) willEvictBlock</Declaration>
+			
+			
+			<Anchor>//api/name/willEvictBlock</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

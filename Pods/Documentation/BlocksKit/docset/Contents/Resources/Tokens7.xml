@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDictionary+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDictionary(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Block extension for NSDictionary.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cat/NSArray(BlocksKit)</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cat/NSSet(BlocksKit)</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/each:</TokenIdentifier>
+			<Abstract type="html">Loops through the dictionary and executes the given block using each item.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)each:(BKKeyValueBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block that performs an action using a key/value pair.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/each:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/apply:</TokenIdentifier>
+			<Abstract type="html">Enumerates through the dictionary concurrently and executes
+the given block once for each pair.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)apply:(BKKeyValueBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block that performs an action using a key/value pair.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/apply:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/match:</TokenIdentifier>
+			<Abstract type="html">Loops through a dictionary to find the first key/value pair matching the block.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)match:(BKKeyValueValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A BOOL-returning code block for a key/value pair.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The value of the first pair found;</Abstract></ReturnValue>
+			<Anchor>//api/name/match:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/select:</TokenIdentifier>
+			<Abstract type="html">Loops through a dictionary to find the key/value pairs matching the block.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (NSDictionary *)select:(BKKeyValueValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A BOOL-returning code block for a key/value pair.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a dictionary of the objects found.</Abstract></ReturnValue>
+			<Anchor>//api/name/select:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/reject:</TokenIdentifier>
+			<Abstract type="html">Loops through a dictionary to find the key/value pairs not matching the block.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (NSDictionary *)reject:(BKKeyValueValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A BOOL-returning code block for a key/value pair.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a dictionary of all objects not found.</Abstract></ReturnValue>
+			<Anchor>//api/name/reject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/map:</TokenIdentifier>
+			<Abstract type="html">Call the block once for each object and create a dictionary with the same keys
+and a new set of values.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (NSDictionary *)map:(BKKeyValueTransformBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block that returns a new value for a key/value pair.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a dictionary of the objects returned by the block.</Abstract></ReturnValue>
+			<Anchor>//api/name/map:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/any:</TokenIdentifier>
+			<Abstract type="html">Loops through a dictionary to find whether any key/value pair matches the block.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)any:(BKKeyValueValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A two-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES for the first time the block returns YES for a key/value pair, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/any:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/none:</TokenIdentifier>
+			<Abstract type="html">Loops through a dictionary to find whether no key/value pairs match the block.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)none:(BKKeyValueValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A two-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the block returns NO for all key/value pairs in the dictionary, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/none:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDictionary(BlocksKit)/all:</TokenIdentifier>
+			<Abstract type="html">Loops through a dictionary to find whether all key/value pairs match the block.</Abstract>
+			<DeclaredIn>NSDictionary+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)all:(BKKeyValueValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A two-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the block returns YES for all key/value pairs in the dictionary, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/all:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

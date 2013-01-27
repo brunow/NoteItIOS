@@ -1,0 +1,120 @@
+//
+// Created by Bruno Wernimont on 2013
+// Copyright 2013 NoteIT
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+#import "User.h"
+
+#import "SSKeychain.h"
+#import "AppDelegate.h"
+
+#define PASSWORD_KEY @"password"
+#define ACCESS_TOKEN_KEY @"access_token"
+#define EMAIL_KEY @"email"
+#define USER_ID_KEY @"user_id"
+#define ACCOUNT @"note_id"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+@implementation User
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
++ (User *)shared {
+    BK_ADD_SHARED_INSTANCE_USING_BLOCK(^{
+        return [[self alloc] init];
+    })
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
++ (BOOL)isLoggedIn {
+    return !![[User shared] accessToken];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
++ (void)loggout {    
+    [SSKeychain deletePasswordForService:EMAIL_KEY account:ACCOUNT];
+    [SSKeychain deletePasswordForService:ACCESS_TOKEN_KEY account:ACCOUNT];
+    [SSKeychain deletePasswordForService:USER_ID_KEY account:ACCOUNT];
+    [SSKeychain deletePasswordForService:EMAIL_KEY account:ACCOUNT];
+    [SSKeychain deletePasswordForService:PASSWORD_KEY account:ACCOUNT];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
++ (NSString *)userToken {
+    return nil;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark Getters and setters
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)setEmail:(NSString *)email {
+    [SSKeychain setPassword:email forService:EMAIL_KEY account:ACCOUNT];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (NSString *)email {
+    return [SSKeychain passwordForService:EMAIL_KEY account:ACCOUNT error:nil];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)setUserID:(NSNumber *)userID {
+    [SSKeychain setPassword:[userID stringValue] forService:USER_ID_KEY account:ACCOUNT];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (NSNumber *)userID {
+    NSString *stringUserID = [SSKeychain passwordForService:USER_ID_KEY account:ACCOUNT error:nil];
+    return BK_INTEGER([stringUserID integerValue]);
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (NSString *)password {
+    return [SSKeychain passwordForService:PASSWORD_KEY account:ACCOUNT error:nil];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)setPassword:(NSString *)password {
+    [SSKeychain setPassword:password forService:PASSWORD_KEY account:ACCOUNT];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (NSString *)accessToken {
+    return [SSKeychain passwordForService:ACCESS_TOKEN_KEY account:ACCOUNT error:nil];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)setAccessToken:(NSString *)accessToken {
+    [SSKeychain setPassword:accessToken forService:ACCESS_TOKEN_KEY account:ACCOUNT];
+}
+
+
+@end

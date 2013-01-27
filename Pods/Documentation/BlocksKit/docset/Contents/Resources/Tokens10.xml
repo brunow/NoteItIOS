@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSMutableArray+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSMutableArray(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Block extensions for NSMutableArray.</Abstract>
+			<DeclaredIn>NSMutableArray+BlocksKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cat/NSArray(BlocksKit)</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableArray(BlocksKit)/performSelect:</TokenIdentifier>
+			<Abstract type="html">Filters a mutable array to the objects matching the block.</Abstract>
+			<DeclaredIn>NSMutableArray+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)performSelect:(BKValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performSelect:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableArray(BlocksKit)/performReject:</TokenIdentifier>
+			<Abstract type="html">Filters a mutable array to all objects but the ones matching the block,
+the logical inverse to select:.</Abstract>
+			<DeclaredIn>NSMutableArray+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)performReject:(BKValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performReject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableArray(BlocksKit)/performMap:</TokenIdentifier>
+			<Abstract type="html">Transform the objects in the array to the results of the block.</Abstract>
+			<DeclaredIn>NSMutableArray+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)performMap:(BKTransformBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, object-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performMap:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

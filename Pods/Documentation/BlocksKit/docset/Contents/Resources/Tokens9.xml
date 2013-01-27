@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSInvocation+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSInvocation(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Blocks wrapper for NSInvocation.</Abstract>
+			<DeclaredIn>NSInvocation+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSInvocation(BlocksKit)/invocationWithTarget:block:</TokenIdentifier>
+			<Abstract type="html">Generates an NSInvocation object for a given block.</Abstract>
+			<DeclaredIn>NSInvocation+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (NSInvocation *)invocationWithTarget:(id)target block:(BKSenderBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The object to "grab" the block invocation from.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A fully-prepared instance of NSInvocation ready to be invoked</Abstract></ReturnValue>
+			<Anchor>//api/name/invocationWithTarget:block:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

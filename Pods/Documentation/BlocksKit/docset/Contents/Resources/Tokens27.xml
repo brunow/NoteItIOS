@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Convenience on-touch methods for UIView.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenTouches:tapped:handler:</TokenIdentifier>
+			<Abstract type="html">Abstract creation of a block-backed UITapGestureRecognizer.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenTapped:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenDoubleTapped:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)whenTouches:(NSUInteger)numberOfTouches tapped:(NSUInteger)numberOfTaps handler:(BKBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>numberOfTouches</Name>
+					<Abstract type="html">The number of fingers tapping that will trigger the block.</Abstract>
+				</Parameter><Parameter>
+					<Name>numberOfTaps</Name>
+					<Abstract type="html">The number of taps required to trigger the block.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The handler for the UITapGestureRecognizer</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/whenTouches:tapped:handler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenTapped:</TokenIdentifier>
+			<Abstract type="html">Adds a recognizer for one finger tapping once.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenDoubleTapped:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenTouches:tapped:handler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)whenTapped:(BKBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The handler for the tap recognizer</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/whenTapped:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenDoubleTapped:</TokenIdentifier>
+			<Abstract type="html">Adds a recognizer for one finger tapping twice.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenTapped:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/whenTouches:tapped:handler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)whenDoubleTapped:(BKBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The handler for the tap recognizer</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/whenDoubleTapped:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/eachSubview:</TokenIdentifier>
+			<Abstract type="html">A convenience wrapper that non-recursively loops through the subviews of a view.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)eachSubview:(void ( ^ ) ( UIView *))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A code block that interacts with a UIView sender.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/eachSubview:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/setOnTouchDownBlock:</TokenIdentifier>
+			<Abstract type="html">The block that gets called on a finger down.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKTouchBlock onTouchDownBlock</Declaration>
+			
+			
+			<Anchor>//api/name/onTouchDownBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(BlocksKit)/onTouchDownBlock</TokenIdentifier>
+			<Abstract type="html">The block that gets called on a finger down.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKTouchBlock onTouchDownBlock</Declaration>
+			
+			
+			<Anchor>//api/name/onTouchDownBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/setOnTouchMoveBlock:</TokenIdentifier>
+			<Abstract type="html">The block that gets called on a finger drag.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKTouchBlock onTouchMoveBlock</Declaration>
+			
+			
+			<Anchor>//api/name/onTouchMoveBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(BlocksKit)/onTouchMoveBlock</TokenIdentifier>
+			<Abstract type="html">The block that gets called on a finger drag.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKTouchBlock onTouchMoveBlock</Declaration>
+			
+			
+			<Anchor>//api/name/onTouchMoveBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(BlocksKit)/setOnTouchUpBlock:</TokenIdentifier>
+			<Abstract type="html">The block that gets called on a finger up.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKTouchBlock onTouchUpBlock</Declaration>
+			
+			
+			<Anchor>//api/name/onTouchUpBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(BlocksKit)/onTouchUpBlock</TokenIdentifier>
+			<Abstract type="html">The block that gets called on a finger up.</Abstract>
+			<DeclaredIn>UIView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKTouchBlock onTouchUpBlock</Declaration>
+			
+			
+			<Anchor>//api/name/onTouchUpBlock</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

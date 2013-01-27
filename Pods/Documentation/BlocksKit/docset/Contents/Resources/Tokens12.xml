@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSMutableIndexSet+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSMutableIndexSet(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Block extensions for NSMutableIndexSet.</Abstract>
+			<DeclaredIn>NSMutableIndexSet+BlocksKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cat/NSIndexSet(BlocksKit)</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableIndexSet(BlocksKit)/performSelect:</TokenIdentifier>
+			<Abstract type="html">Filters a mutable index set to the indexes matching the block.</Abstract>
+			<DeclaredIn>NSMutableIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)performSelect:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performSelect:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableIndexSet(BlocksKit)/performReject:</TokenIdentifier>
+			<Abstract type="html">Filters a mutable index set to all indexes but the ones matching the block,
+the logical inverse to select:.</Abstract>
+			<DeclaredIn>NSMutableIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)performReject:(BKIndexValidationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A single-argument, BOOL-returning code block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performReject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableIndexSet(BlocksKit)/performMap:</TokenIdentifier>
+			<Abstract type="html">Transform each index of the index set to a new index, as returned by the
+block.</Abstract>
+			<DeclaredIn>NSMutableIndexSet+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)performMap:(BKIndexTransformBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block that returns a new index for a index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performMap:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

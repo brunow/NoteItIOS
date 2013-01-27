@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIBarButtonItem+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIBarButtonItem(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Block event initialization for UIBarButtonItem.</Abstract>
+			<DeclaredIn>UIBarButtonItem+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIBarButtonItem(BlocksKit)/initWithBarButtonSystemItem:handler:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a configured item containing the specified system item.</Abstract>
+			<DeclaredIn>UIBarButtonItem+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithBarButtonSystemItem:(UIBarButtonSystemItem)systemItem handler:(BKSenderBlock)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>systemItem</Name>
+					<Abstract type="html">The system item to use as the item representation. One of the constants defined in UIBarButtonSystemItem.</Abstract>
+				</Parameter><Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The block that gets fired on the button press.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Newly initialized item with the specified properties.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithBarButtonSystemItem:handler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIBarButtonItem(BlocksKit)/initWithImage:style:handler:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a configured item using the specified image and style.</Abstract>
+			<DeclaredIn>UIBarButtonItem+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImage:(UIImage *)image style:(UIBarButtonItemStyle)style handler:(BKSenderBlock)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The item’s image. If nil an image is not displayed.
+If this image is too large to fit on the bar, it is scaled to fit
+The size of a toolbar and navigation bar image is 20 x 20 points.</Abstract>
+				</Parameter><Parameter>
+					<Name>style</Name>
+					<Abstract type="html">The style of the item. One of the constants defined in UIBarButtonItemStyle.</Abstract>
+				</Parameter><Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The block that gets fired on the button press.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Newly initialized item with the specified properties.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithImage:style:handler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIBarButtonItem(BlocksKit)/initWithTitle:style:handler:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a configured item using the specified text and style.</Abstract>
+			<DeclaredIn>UIBarButtonItem+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title style:(UIBarButtonItemStyle)style handler:(BKSenderBlock)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The text displayed on the button item.</Abstract>
+				</Parameter><Parameter>
+					<Name>style</Name>
+					<Abstract type="html">The style of the item. One of the constants defined in UIBarButtonItemStyle.</Abstract>
+				</Parameter><Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The block that gets fired on the button press.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Newly initialized item with the specified properties.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithTitle:style:handler:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

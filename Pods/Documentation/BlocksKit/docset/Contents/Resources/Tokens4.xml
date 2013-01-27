@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/MFMessageComposeViewController+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/MFMessageComposeViewController(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">MFMessageComposeViewController with block callback in addition to delegation.</Abstract>
+			<DeclaredIn>MFMessageComposeViewController+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MFMessageComposeViewController(BlocksKit)/setCompletionBlock:</TokenIdentifier>
+			<Abstract type="html">The block fired on the dismissal of the SMS composition interface.</Abstract>
+			<DeclaredIn>MFMessageComposeViewController+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( MFMessageComposeViewController *, MessageComposeResult ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MFMessageComposeViewController(BlocksKit)/completionBlock</TokenIdentifier>
+			<Abstract type="html">The block fired on the dismissal of the SMS composition interface.</Abstract>
+			<DeclaredIn>MFMessageComposeViewController+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( MFMessageComposeViewController *, MessageComposeResult ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

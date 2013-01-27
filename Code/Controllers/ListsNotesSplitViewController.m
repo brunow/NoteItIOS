@@ -1,0 +1,91 @@
+//
+// Created by Bruno Wernimont on 2013
+// Copyright 2013 NoteIT
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+#import "ListsNotesSplitViewController.h"
+
+#import "AppDelegate.h"
+#import "ListsTableViewController.h"
+#import "NotesTableViewController.h"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+@interface ListsNotesSplitViewController () <UISplitViewControllerDelegate>
+
+@end
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+@implementation ListsNotesSplitViewController
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
++ (ListsNotesSplitViewController *)sharedSplitViewController {
+    AppDelegate *app = AppDelegateSharedInstance;
+    return (ListsNotesSplitViewController *)[[app window] rootViewController];
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (id)init {
+    self = [super init];
+	if (self) {
+		_listsViewController = [[ListsTableViewController alloc] init];
+		_notesViewController = [[NotesTableViewController alloc] init];
+        
+        _listsViewController.clearsSelectionOnViewWillAppear = NO;
+		
+		self.viewControllers = [[NSArray alloc] initWithObjects:
+								[[UINavigationController alloc] initWithRootViewController:_listsViewController],
+								[[UINavigationController alloc] initWithRootViewController:_notesViewController],
+								nil];
+		
+		self.delegate = self;
+	}
+	return self;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark UIViewController
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+	return YES;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark UISplitViewControllerDelegate
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+- (BOOL)splitViewController:(UISplitViewController *)svc
+   shouldHideViewController:(UIViewController *)vc
+              inOrientation:(UIInterfaceOrientation)orientation {
+    
+	return NO;
+}
+
+
+@end

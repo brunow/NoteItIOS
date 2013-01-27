@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+A2BlockDelegateBlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(A2BlockDelegateBlocksKit)</TokenIdentifier>
+			<Abstract type="html">The A2BlockDelegate category for BlocksKit
+completes the trifecta of functionality introduced in
+A2DynamicDelegate, A2BlockDelegate, and their associated
+categories. A2BlockDelegate for BlocksKit replaces
+the delegate of supported classes with an automatic -
+though optional - set of block-based properties, while
+still allowing the original block.</Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(A2BlockDelegateBlocksKit)/registerDynamicDataSource</TokenIdentifier>
+			<Abstract type="html">Registers a dynamic data source replacement using
+the property name dataSource and the protocol name
+FooBarDataSource for an instance of FooBar.</Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (void)registerDynamicDataSource</Declaration>
+			
+			
+			<Anchor>//api/name/registerDynamicDataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(A2BlockDelegateBlocksKit)/registerDynamicDelegate</TokenIdentifier>
+			<Abstract type="html">Registers a dynamic delegate replacement using
+the property name delegate and the protocol name
+FooBarDelegate for an instance of FooBar.</Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (void)registerDynamicDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registerDynamicDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(A2BlockDelegateBlocksKit)/registerDynamicDataSourceNamed:</TokenIdentifier>
+			<Abstract type="html">Registers a dynamic data source replacement using
+the given property name and the protocol name
+FooBarDataSource for an instance of FooBar.</Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (void)registerDynamicDataSourceNamed:(NSString *)dataSourceName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataSourceName</Name>
+					<Abstract type="html">The name of the class' data
+source property. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerDynamicDataSourceNamed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(A2BlockDelegateBlocksKit)/registerDynamicDelegateNamed:</TokenIdentifier>
+			<Abstract type="html">Registers a dynamic delegate replacement using
+the given property name and the protocol name
+FooBarDelegate for an instance of FooBar.</Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (void)registerDynamicDelegateNamed:(NSString *)delegateName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegateName</Name>
+					<Abstract type="html">The name of the class'
+delegate property. Must not be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerDynamicDelegateNamed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(A2BlockDelegateBlocksKit)/registerDynamicDelegateNamed:forProtocol:</TokenIdentifier>
+			<Abstract type="html">Registers a dynamic protocol implementation replacement
+using the given property name and the given protocol.</Abstract>
+			<DeclaredIn>A2BlockDelegate+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (void)registerDynamicDelegateNamed:(NSString *)delegateName forProtocol:(Protocol *)protocol</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegateName</Name>
+					<Abstract type="html">The name of the class' delegation
+protocol property, such as safeDelegate. Must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>protocol</Name>
+					<Abstract type="html">A properly encoded protocol. Must not
+be NULL.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerDynamicDelegateNamed:forProtocol:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

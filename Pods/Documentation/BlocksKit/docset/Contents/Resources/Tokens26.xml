@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIPopoverController+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIPopoverController(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">Block functionality for UIPopoverController.</Abstract>
+			<DeclaredIn>UIPopoverController+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIPopoverController(BlocksKit)/setShouldDismissBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be called when the popover controller will dismiss the popover. Return NO to prevent the dismissal of the view.</Abstract>
+			<DeclaredIn>UIPopoverController+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( UIPopoverController *) shouldDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDismissBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIPopoverController(BlocksKit)/shouldDismissBlock</TokenIdentifier>
+			<Abstract type="html">The block to be called when the popover controller will dismiss the popover. Return NO to prevent the dismissal of the view.</Abstract>
+			<DeclaredIn>UIPopoverController+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( UIPopoverController *) shouldDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDismissBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIPopoverController(BlocksKit)/setDidDismissBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be called when the user has taken action to dismiss the popover. This is not called when -dismissPopoverAnimated: is called directly.</Abstract>
+			<DeclaredIn>UIPopoverController+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIPopoverController *) didDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/didDismissBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIPopoverController(BlocksKit)/didDismissBlock</TokenIdentifier>
+			<Abstract type="html">The block to be called when the user has taken action to dismiss the popover. This is not called when -dismissPopoverAnimated: is called directly.</Abstract>
+			<DeclaredIn>UIPopoverController+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIPopoverController *) didDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/didDismissBlock</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

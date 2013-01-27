@@ -1,0 +1,51 @@
+
+PODS:
+- A2DynamicDelegate (2.0.1):
+  - libffi
+- AFNetworking (1.0.1)
+- ActionSheetPicker2 (0.1)
+- BWLongTextViewController (1.0)
+- BlocksKit (1.5.1):
+  - A2DynamicDelegate
+- CoreParse (1.0.0)
+- JSONKit (1.5pre)
+- KSReachability (0.0.1)
+- MagicalRecord (2.0.8)
+- SOCKit (1.1)
+- SSKeychain (0.1.4)
+- SSToolkit (1.0.2)
+- Underscore.m (0.1.0)
+- libffi (3.0.11)
+
+DEPENDENCIES:
+- A2DynamicDelegate (~> 2.0.1)
+- AFNetworking (~> 1.0.1)
+- ActionSheetPicker2 (~> 0.1)
+- BWLongTextViewController (~> 1.0.0)
+- BlocksKit (~> 1.5.1)
+- CoreParse (~> 1.0.0)
+- JSONKit (~> 1.4)
+- KSReachability (~> 0.0.1)
+- MagicalRecord (~> 2.0.8)
+- SOCKit (~> 1.1)
+- SSKeychain (~> 0.1.2)
+- SSToolkit (~> 1.0.2)
+- Underscore.m (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  A2DynamicDelegate: dead4cbf1ddd89b96ebe3a1d94ba08b707d3cffc
+  AFNetworking: 4c11f857c9a18d65f4257c90a1e74ac49f0ac422
+  ActionSheetPicker2: 1a097a29ab437ea47356f3477e7a47e175a90445
+  BWLongTextViewController: b90a939a749781ea38bd43783350a3508a8dfb47
+  BlocksKit: b270fd80c9ea10908feba15ffdbedc0d39ce0382
+  CoreParse: fc6a33c91b6540a9cc99ca856af5c0943afccc94
+  JSONKit: 3d4708953ea7ae399a49777372d8b060a43ddd27
+  KSReachability: b3b0e5dbbe58dbcec98697cb00e4b7ceddcb2fad
+  MagicalRecord: daa15d6c83bd7d30e074c8923e53c64248ae6930
+  SOCKit: 179515c1a621dd5652a60e9be02ea4adcd25bc9b
+  SSKeychain: bae692a4354f48691ca3463a121dc8060f781a7d
+  SSToolkit: 852044205c6a15586431e90f46b2ef01f693285a
+  Underscore.m: e72bd89a319e8d924b84bb4f5fc695955413ac5f
+  libffi: 8a1d9ba43c0c84b546b42c6f742714e73aa07ae1
+
+COCOAPODS: 0.16.0

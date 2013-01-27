@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIAlertView+BlocksKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIAlertView(BlocksKit)</TokenIdentifier>
+			<Abstract type="html">UIAlertView without delegates!</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/showAlertViewWithTitle:message:cancelButtonTitle:otherButtonTitles:handler:</TokenIdentifier>
+			<Abstract type="html">Creates and shows a new alert view with only a title, message, and cancel button.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (void)showAlertViewWithTitle:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSArray *)otherButtonTitles handler:(void ( ^ ) ( UIAlertView *, NSInteger ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The title of the alert view.</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message content of the alert.</Abstract>
+				</Parameter><Parameter>
+					<Name>cancelButtonTitle</Name>
+					<Abstract type="html">The title of the cancel button. If both cancelButtonTitle and otherButtonTitles are empty or nil, defaults to a</Abstract>
+				</Parameter><Parameter>
+					<Name>otherButtonTitles</Name>
+					<Abstract type="html">Titles of additional buttons to add to the receiver.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block of code to be fired on the dismissal of the alert view.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showAlertViewWithTitle:message:cancelButtonTitle:otherButtonTitles:handler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/alertViewWithTitle:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a new alert view with only a title and cancel button.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (id)alertViewWithTitle:(NSString *)title</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The title of the alert view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A newly created alert view.</Abstract></ReturnValue>
+			<Anchor>//api/name/alertViewWithTitle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/alertViewWithTitle:message:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a new alert view with only a title, message, and cancel button.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>+ (id)alertViewWithTitle:(NSString *)title message:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The title of the alert view.</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message content of the alert.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A newly created alert view.</Abstract></ReturnValue>
+			<Anchor>//api/name/alertViewWithTitle:message:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/initWithTitle:message:</TokenIdentifier>
+			<Abstract type="html">Returns a configured alert view with only a title, message, and cancel button.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title message:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The title of the alert view.</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message content of the alert.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instantiated alert view.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithTitle:message:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/addButtonWithTitle:handler:</TokenIdentifier>
+			<Abstract type="html">Add a new button with an associated code block.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)addButtonWithTitle:(NSString *)title handler:(BKBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The text of the button.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block of code.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addButtonWithTitle:handler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setCancelButtonWithTitle:handler:</TokenIdentifier>
+			<Abstract type="html">Set the title and trigger of the cancel button.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)setCancelButtonWithTitle:(NSString *)title handler:(BKBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The text of the button.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block of code.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setCancelButtonWithTitle:handler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setHandler:forButtonAtIndex:</TokenIdentifier>
+			<Abstract type="html">Sets the block that is to be fired when a button is pressed.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (void)setHandler:(BKBlock)block forButtonAtIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A code block, or nil to set no response.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of a button already added to the action sheet.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setHandler:forButtonAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/handlerForButtonAtIndex:</TokenIdentifier>
+			<Abstract type="html">The block that is to be fired when a button is pressed.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>- (BKBlock)handlerForButtonAtIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the button already added to the alert view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A code block, or nil if no block yet assigned.</Abstract></ReturnValue>
+			<Anchor>//api/name/handlerForButtonAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setCancelBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be fired when the action sheet is dismissed with the cancel
+button.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKBlock cancelBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cancelBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIAlertView(BlocksKit)/cancelBlock</TokenIdentifier>
+			<Abstract type="html">The block to be fired when the action sheet is dismissed with the cancel
+button.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BKBlock cancelBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cancelBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setWillShowBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be fired before the alert view will show.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *) willShowBlock</Declaration>
+			
+			
+			<Anchor>//api/name/willShowBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIAlertView(BlocksKit)/willShowBlock</TokenIdentifier>
+			<Abstract type="html">The block to be fired before the alert view will show.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *) willShowBlock</Declaration>
+			
+			
+			<Anchor>//api/name/willShowBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setDidShowBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be fired when the alert view shows.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *) didShowBlock</Declaration>
+			
+			
+			<Anchor>//api/name/didShowBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIAlertView(BlocksKit)/didShowBlock</TokenIdentifier>
+			<Abstract type="html">The block to be fired when the alert view shows.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *) didShowBlock</Declaration>
+			
+			
+			<Anchor>//api/name/didShowBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setWillDismissBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be fired before the alert view will dismiss.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *, NSInteger ) willDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/willDismissBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIAlertView(BlocksKit)/willDismissBlock</TokenIdentifier>
+			<Abstract type="html">The block to be fired before the alert view will dismiss.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *, NSInteger ) willDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/willDismissBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setDidDismissBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be fired after the alert view dismisses.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *, NSInteger ) didDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/didDismissBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIAlertView(BlocksKit)/didDismissBlock</TokenIdentifier>
+			<Abstract type="html">The block to be fired after the alert view dismisses.</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UIAlertView *, NSInteger ) didDismissBlock</Declaration>
+			
+			
+			<Anchor>//api/name/didDismissBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIAlertView(BlocksKit)/setShouldEnableFirstOtherButtonBlock:</TokenIdentifier>
+			<Abstract type="html">The block to be fired to determine whether the first non-cancel should be enabled</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( UIAlertView *) ( 5 _0 ) shouldEnableFirstOtherButtonBlock</Declaration>
+			
+			
+			<Anchor>//api/name/shouldEnableFirstOtherButtonBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIAlertView(BlocksKit)/shouldEnableFirstOtherButtonBlock</TokenIdentifier>
+			<Abstract type="html">The block to be fired to determine whether the first non-cancel should be enabled</Abstract>
+			<DeclaredIn>UIAlertView+BlocksKit.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( UIAlertView *) ( 5 _0 ) shouldEnableFirstOtherButtonBlock</Declaration>
+			
+			
+			<Anchor>//api/name/shouldEnableFirstOtherButtonBlock</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

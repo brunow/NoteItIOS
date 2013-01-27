@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/cesar4/Library/Developer/Shared/Documentation/DocSets/com.dizzytechnology.BlocksKit-1.5.0.docset
+Time: 2012-06-24 19:38:59 +0000

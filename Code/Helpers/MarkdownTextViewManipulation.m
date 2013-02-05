@@ -138,6 +138,9 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)pushTitleLevelOnSelectedRange {
     NSString *textToChange = self.textView.text;
+    if (textToChange.length == 0) {
+        return;
+    }
     NSRange selectedRange = self.textView.selectedRange;
     NSRange toChangeRange = selectedRange;
     NSString *textToAdd = @"#";
@@ -147,10 +150,15 @@
         NSArray *beforeSelectionLines = [stringBeforeSelection componentsSeparatedByString:@"\n"];
         NSString *beforeTextSelection = [beforeSelectionLines lastObject];
         
-        if (![@"#" isEqualToString:[beforeTextSelection substringWithRange:NSMakeRange(0, 1)]])
-            textToAdd = [textToAdd stringByAppendingString:@" "];
         
-        toChangeRange.location = toChangeRange.location - beforeTextSelection.length;
+        if (beforeTextSelection.length == 0) {
+            toChangeRange.location = selectedRange.location;
+        } else {
+            if (![@"#" isEqualToString:[beforeTextSelection substringWithRange:NSMakeRange(0, 1)]])
+                textToAdd = [textToAdd stringByAppendingString:@" "];
+            
+            toChangeRange.location = toChangeRange.location - beforeTextSelection.length;
+        }
     } else {
         toChangeRange.length = 0;
     }
